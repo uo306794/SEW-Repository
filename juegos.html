@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Manuel Sújar García" />
+    <meta name="description" content="Documento index del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <!-- contenido de juegos.html  -->
+    <header>
+        <h1><a href="index.html" title="Página principal de LaVuelta2026">
+            LaVuelta2026
+        </a></h1>
+        <nav>
+            <a href="inicio.html" title="inicio info">Inicio</a>
+            <a href="ciclista.html" title="Información del ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información del equipo">Equipo</a>
+            <a href="etapa.html" title="Información de la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información de la meteorología">Meteorología</a>
+            <a href="clasificaciones.html" title="Información de las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos" aria-current="page">Juegos</a>
+            <a href="ayuda.html" title="Ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li>
+                <a href="index.html" title="Página principal">Inicio</a>
+            </li>
+            <li>>></li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+
+    <main>
+
+        <h2>Juegos</h2>
+        <h3>¿Conoces la etapa?</h3>
+        <p>Pon a prueba tus conocimientos respondiendo a este cuestionario de 10 preguntas sobre la información de la
+            etapa
+            6.</p>
+
+        <form name="Etapa de La Vuelta 2026" method="post">
+            <fieldset>
+                <legend>Etapa de La Vuelta 2026</legend>
+
+                <p>
+                    <label for="num-etapa">Número de la etapa:</label>
+                    <input type="number" id="num-etapa" name="numEtapa" min="1" max="21" value="6" required />
+                </p>
+
+                <p>
+                    <label for="fecha-etapa">Fecha de celebración de la etapa:</label>
+                    <input type="date" id="fecha-etapa" name="fechaEtapa" required />
+                </p>
+
+                <p>
+                    <label for="salida-etapa">Lugar de salida de la etapa:</label>
+                    <select id="salida-etapa" name="salidaEtapa" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Cartagena ">Cartagena </option>
+                        <option value="Monaco">Monaco </option>
+                        <option value="Alcossebre">Alcossebre</option>
+                        <option value="Almuñécar">Almuñécar</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="llegada-etapa">Lugar de llegada de la etapa:</label>
+                    <select id="llegada-etapa" name="llegadaEtapa" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="Castelló">Castelló</option>
+                        <option value="Manosque">Manosque</option>
+                        <option value="Xeraco">Xeraco</option>
+                        <option value="Lorca">Lorca</option>
+                    </select>
+                </p>
+
+                <fieldset>
+                    <legend>Tipo de etapa:</legend>
+                    <p>
+                        <input type="radio" id="tipo-llana" name="tipoEtapa" value="Llana" required />
+                        <label for="tipo-llana">Llana</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="tipo-media-montana" name="tipoEtapa" value="Media montaña" />
+                        <label for="tipo-media-montana">Media montaña</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="tipo-montana" name="tipoEtapa" value="Montaña" />
+                        <label for="tipo-montana">Montaña</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="tipo-cri" name="tipoEtapa" value="Contrarreloj individual" />
+                        <label for="tipo-cri">Contrarreloj individual</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="tipo-cre" name="tipoEtapa" value="Contrarreloj por equipos" />
+                        <label for="tipo-cre">Contrarreloj por equipos</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hitos presentes en la etapa:</legend>
+                    <p>
+                        <input type="checkbox" id="hito-puerto" name="hitos" value="Puerto de montaña" />
+                        <label for="hito-puerto">Puerto de montaña</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="hito-categoria-especial" name="hitos"
+                            value="Puerto categoría especial" />
+                        <label for="hito-categoria-especial">Puerto categoría especial</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="hito-sprint-intermedio" name="hitos" value="Sprint intermedio" />
+                        <label for="hito-sprint-intermedio">Sprint intermedio</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="hito-sprint-bonificado" name="hitos" value="Sprint bonificado" />
+                        <label for="hito-sprint-bonificado">Sprint bonificado</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="hito-sin-hitos" name="hitos" value="Sin hitos" />
+                        <label for="hito-sin-hitos">Sin hitos</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <label for="dificultad-etapa">Dureza/Dificultad de la etapa (escala de 1 a 10):</label>
+                    <input type="range" id="dificultad-etapa" name="dificultadEtapa" min="1" max="10" value="5"
+                        step="1" />
+                </p>
+
+                <p>
+                    <label for="longitud-etapa">Longitud de la etapa (en km):</label>
+                    <input type="number" id="longitud-etapa" name="longitudEtapa" min="0" step="0.1" required />
+                </p>
+
+                <p>
+                    <label for="desnivel-etapa">Desnivel acumulado de la etapa (en metros):</label>
+                    <input type="number" id="desnivel-etapa" name="desnivelEtapa" min="0" step="1" required />
+                </p>
+
+                <p>
+                    <label for="descripcion-etapa">Descripción breve de la etapa:</label><br />
+                    <textarea id="descripcion-etapa" name="descripcionEtapa" rows="4" cols="50"
+                        placeholder="Escribe una breve descripción de la etapa..." required></textarea>
+                </p>
+
+                <p>
+                    <label for="nombre-participante">Nombre del participante:</label>
+                    <input type="text" id="nombre-participante" name="nombreParticipante"
+                        placeholder="Tu nombre y apellidos" required />
+                </p>
+
+                <p>
+                    <button type="submit">Enviar respuestas</button>
+                </p>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <address>Manuel Sújar García <a href="mailto:UOXXXXXX@uniovi.es">
+                UO306794@uniovi.es
+            </a></address>
+    </footer>
+</body>
+
+</html>

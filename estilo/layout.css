@@ -1,0 +1,38 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Manuel Sújar García */
+/*  Correo electrónico (uniovi): uo306794@uniovi.es */
+/*  Grupo de laboratorio: 8 */
+/* ***************************************/
+
+
+/* Especificidad: 005 */
+main:has(picture) > section:has(ul) > ul {
+    list-style: none;
+}
+
+/* Especificidad: 003 */
+main > section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Especificidad: 004 */
+main > section:has(article + article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Especificidad: 005 */
+main > section:has(article + article) > h2 {
+    grid-column: 1 / -1;
+}

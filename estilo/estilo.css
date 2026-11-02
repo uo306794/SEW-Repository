@@ -1,0 +1,233 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Manuel Sújar García */
+/*  Correo electrónico (uniovi): uo306794@uniovi.es */
+/*  Grupo de laboratorio: 8 */
+/* ***************************************/
+
+
+/* ======================================= */
+/*        GAMA CROMÁTICA DEL PROYECTO      */
+/* ======================================= */
+
+/*
+Colores seleccionados:
+- Color principal:   #F49CBB
+- Color secundario:  #880D1E
+- Color blanco:      #FFFFFF
+- Color negro:       #000000
+
+Análisis de contraste:
+
+Color principal:
+    - Contraste de 4.86:1 con color secundario 
+    - Contraste de 2.03:1 con color blanco
+    - Contraste de 10.31:1 con color negro
+
+Color secundario:
+    - Contraste de 4.86:1 con color principal
+    - Contraste de 9.89:1 con color blanco
+    - Contraste de 2.12:1 con color negro
+*/
+
+/*Especificidad 010*/
+:root {
+    --color-principal: #F49CBB;
+    --color-secundario: #880D1E;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+}
+
+/*Especificidad 001*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/*Especificidad 001, 001*/
+header,
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-negro);
+}
+
+/* Especificidad 002, 002 */
+header a,
+footer a {
+    color: var(--color-secundario);    /*ADVERTENCIA: color de fondo heredado de header y footer --color-principal */
+    text-decoration-line: none;
+}
+
+/*Especificidad 001, 001, 001*/
+h1,
+h2,
+h3 {
+    color: var(--color-secundario);    /*ADVERTENCIA: color de fondo heredado de header y footer --color-blanco */
+}
+
+/*Especificidad 012*/
+nav a[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 012 */
+nav[aria-label="migas"]>ol {
+    font-size: 0.8em;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Especificidad: 013 */
+nav[aria-label="migas"]>ol>li {
+    display: inline;
+}
+
+/* Especificidad: 024 */
+nav[aria-label="migas"]>ol>li:last-child {
+    font-weight: bold;
+}
+
+
+/* Tarea 6.3 */
+
+/* Especificidad: 002 */
+main:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Especificidad: 003 */
+main:has(picture) > h2 {
+    flex-basis: 100%;
+}
+
+/* Especificidad: 023 */
+main:has(picture) > section:has(ul) {
+    display: contents;
+}
+
+/* Especificidad: 004 */
+main:has(picture) > section:has(ul) > h3 {
+    flex-basis: 100%;
+}
+
+/* Especificidad: 004 */
+main:has(picture) > section:has(ul) > ul {
+    list-style: none;
+    order: 2;
+    flex: 1 1 300px;
+}
+
+/* Especificidad: 002 */
+main:has(picture) > picture {
+    order: 1;
+    flex: 0 1 300px;
+}
+
+/* Especificidad: 013 */
+main:has(picture) > section:not(:has(ul)) {
+    flex-basis: 100%;
+    order: 3;
+}
+
+/* Especificidad: 023 */
+main:has(picture) > section:has(ul) > ul > li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Especificidad: 023 */
+main:has(picture) > section:has(ul) > ul > li:nth-child(3) {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Especificidad: 023 */
+main:has(picture) > section:has(ul) > ul > li:nth-child(4) {
+    font-weight: bold;
+}
+
+
+/* Tarea 7: Distribución de cabecera y pie mediante Flexbox */
+
+/* Especificidad: 001 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Especificidad: 001 */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Especificidad: 002 */
+footer > address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+}
+
+
+
+/* Tarea 9.1: Adaptación para tabletas (1024px) */
+@media screen and (max-width: 1024px) {
+
+    /* Especificidad: 001 */
+    header {
+        flex-direction: column;
+    }
+
+    /* Especificidad: 002 */
+    header > nav {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /* Especificidad: 004 */
+    main > section:has(article + article) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Especificidad: 012 */
+    nav[aria-label="migas"] {
+        display: none;
+    }
+
+    /* Especificidad: 001, 001 */
+    video,
+    audio {
+        max-width: 100%;
+    }
+}
+
+
+
+/* Tarea 9.2: Adaptación para dispositivos móviles (768px) */
+@media screen and (max-width: 768px) {
+
+    /* Especificidad: 002 */
+    header > nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Especificidad: 004 */
+    main > section:has(article + article) {
+        grid-template-columns: repeat(1, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr)*/
+    }
+}
