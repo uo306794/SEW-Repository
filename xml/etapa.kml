@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Alcosebre a Castelló</name>
+    <description>Planimetría de la etapa</description>
+    <Style id="estiloSalida">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloMeta">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloPuerto">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloSprint">
+      <IconStyle>
+        <color>ffff0000</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="estiloAnonimo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Salida: Alcosebre</name>
+      <styleUrl>#estiloSalida</styleUrl>
+      <Point>
+        <coordinates>0.246426,40.252016,15</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Montaña (segunda cat.) - Km 40.5</name>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <coordinates>0.037930,40.281926,844</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Montaña (tercera cat.) - Km 66.2</name>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <coordinates>-0.032848,40.276025,364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sprint Intermedio - Km 120.1</name>
+      <styleUrl>#estiloSprint</styleUrl>
+      <Point>
+        <coordinates>0.072403,40.056799,15</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Montaña (segunda cat.) - Km 129</name>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <coordinates>0.026790,40.075047,420</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Montaña (primera cat.) - Km 157</name>
+      <styleUrl>#estiloPuerto</styleUrl>
+      <Point>
+        <coordinates>-0.033473,39.975809,729</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Castelló</name>
+      <styleUrl>#estiloMeta</styleUrl>
+      <Point>
+        <coordinates>-0.033473,39.975809,27</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alcossebre</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.246426,40.252016,61.65</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 2</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.229216,40.305981,152.66</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Álcala de Xivert</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.226746,40.306039,155.65</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 4</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.218123,40.302966,167.66</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 5</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.180922,40.293555,299.41</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 6</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.134095,40.318359,244.13</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 7</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.113170,40.306518,186.4</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 8</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.078071,40.258320,276.22</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 9</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.080565,40.259280,279.06</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Torre d'en Doménec</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.070153,40.263238,304.9</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 11</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.057378,40.271371,362.62</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 12</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.039002,40.271250,424.87</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 13</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.034001,40.277959,530.06</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 14</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.040259,40.287653,596.32</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 15</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.026994,40.296493,766.65</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 16</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.030210,40.316211,796.67</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 17</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.024187,40.316548,823.23</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 18</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.029890,40.323429,841.43</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 19</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.051176,40.339311,740.47</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 20</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.037295,40.357502,547.59</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 21</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.004066,40.345846,534.14</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 22</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.004066,40.345846,534.14</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 23</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.012187,40.238425,513.37</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Benlloc</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.025725,40.209818,306.09</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 25</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.027150,40.168687,280.01</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Cabanes</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.075328,40.160486,363.57</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 27</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.151018,40.138065,10.12</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 28</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.087472,40.056852,5.79</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 29</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.047039,40.054885,61.18</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 30</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.040486,40.079482,381.56</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 31</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.027339,40.073412,424.56</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 32</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.007281,40.055180,193.36</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 33</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.008023,40.025605,27.39</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 34</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.015580,40.025337,0.96</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 35</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.070659,40.054809,7.36</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 36</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.050506,40.054660,44.19</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 37</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.045555,40.087512,489.26</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto el Bartolo</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.030838,40.085806,715.08</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 39</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.022531,40.076456,542.99</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 40</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>0.011621,40.056848,246.99</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 41</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.008435,40.026347,31.58</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 42</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.042826,40.005145,26.41</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 43</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.022404,39.992062,15</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto Anónimo 44</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.029592,39.974900,16.65</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Castelló</name>
+      <styleUrl>#estiloAnonimo</styleUrl>
+      <Point>
+        <coordinates>-0.033473,39.975809,19.39</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de la etapa</name>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          0.246426,40.252016,61.65 0.229216,40.305981,152.66 0.226746,40.306039,155.65 0.218123,40.302966,167.66 0.180922,40.293555,299.41 0.134095,40.318359,244.13 0.113170,40.306518,186.4 0.078071,40.258320,276.22 0.080565,40.259280,279.06 0.070153,40.263238,304.9 0.057378,40.271371,362.62 0.039002,40.271250,424.87 0.034001,40.277959,530.06 0.040259,40.287653,596.32 0.026994,40.296493,766.65 0.030210,40.316211,796.67 0.024187,40.316548,823.23 0.029890,40.323429,841.43 0.051176,40.339311,740.47 0.037295,40.357502,547.59 -0.004066,40.345846,534.14 -0.004066,40.345846,534.14 -0.012187,40.238425,513.37 0.025725,40.209818,306.09 -0.027150,40.168687,280.01 0.075328,40.160486,363.57 0.151018,40.138065,10.12 0.087472,40.056852,5.79 0.047039,40.054885,61.18 0.040486,40.079482,381.56 0.027339,40.073412,424.56 0.007281,40.055180,193.36 -0.008023,40.025605,27.39 0.015580,40.025337,0.96 0.070659,40.054809,7.36 0.050506,40.054660,44.19 0.045555,40.087512,489.26 0.030838,40.085806,715.08 0.022531,40.076456,542.99 0.011621,40.056848,246.99 -0.008435,40.026347,31.58 -0.042826,40.005145,26.41 -0.022404,39.992062,15 -0.029592,39.974900,16.65 -0.033473,39.975809,19.39
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

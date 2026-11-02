@@ -1,0 +1,89 @@
+<!ELEMENT etapa (nombre, numero, longitud, fecha,
+    tiempoGanador, velocidadMediaGanador, desnivel,
+    ciudadInicio, ciudadFinal, tipoEtapa, referencias,
+    fotografias, videos, sonidos,
+    coordenadasInicio, coordenadasFinal, hitos,
+    puntosAnonimos, top3Etapa, top3General, top3Equipos)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT tiempoGanador (#PCDATA)>
+
+<!ELEMENT velocidadMediaGanador (#PCDATA)>
+
+<!ELEMENT desnivel (#PCDATA)>
+
+
+<!ELEMENT ciudadInicio (#PCDATA)>
+<!ELEMENT ciudadFinal (#PCDATA)>
+
+
+
+<!ELEMENT tipoEtapa EMPTY>
+<!ATTLIST tipoEtapa tipo (llana | montaña | contrarrelojIndividual | contrarrelojEquipos | mediaMontaña) #REQUIRED>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT fotografias (fotografia+)>
+<!ELEMENT fotografia (#PCDATA)>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT sonidos (sonido+)>
+<!ELEMENT sonido (#PCDATA)>
+
+
+<!ELEMENT coordenadasInicio (coordenadas)>
+<!ELEMENT coordenadasFinal (coordenadas)>
+    <!ELEMENT coordenadas (longitudGeo, latitud, altitud)>
+        <!ELEMENT longitudGeo (#PCDATA)>
+        <!ELEMENT latitud (#PCDATA)>
+        <!ELEMENT altitud (#PCDATA)>
+
+        <!ATTLIST longitudGeo unidades CDATA #FIXED "º">
+        <!ATTLIST latitud unidades CDATA #FIXED "º">
+        <!ATTLIST altitud unidades CDATA #FIXED "m">
+
+
+<!ELEMENT hitos (puertoMontañaPuntuable | sprintIntermedio | sprintBonificado)*>
+
+
+
+<!ELEMENT puertoMontañaPuntuable (categoriaPuertoMontaña, coordenadas, distanciaASalida)>
+    <!ELEMENT categoriaPuertoMontaña (#PCDATA)>
+<!ELEMENT sprintIntermedio (coordenadas, distanciaASalida)>
+<!ELEMENT sprintBonificado (coordenadas, distanciaASalida)>
+
+
+
+
+<!ELEMENT distanciaASalida (#PCDATA)>
+<!ATTLIST distanciaASalida unidades CDATA #FIXED "km">
+
+<!ELEMENT puntosAnonimos (puntoAnonimo*)>
+<!ELEMENT puntoAnonimo (nombre?, coordenadas, distanciaASalida)>
+
+<!ELEMENT top3Etapa (clasificado, clasificado, clasificado)>
+<!ELEMENT top3General (clasificado, clasificado, clasificado)>
+<!ELEMENT top3Equipos (clasificadoEquipo, clasificadoEquipo, clasificadoEquipo)>
+
+    <!ELEMENT clasificado (posicion, nombreCorredor, diferenciaTiempo?)>
+        <!ELEMENT posicion (#PCDATA)>
+        <!ELEMENT nombreCorredor (#PCDATA)>
+        <!ELEMENT diferenciaTiempo (#PCDATA)>
+
+    <!ELEMENT clasificadoEquipo (posicion, nombreEquipo, diferenciaTiempo?)>
+        <!ELEMENT nombreEquipo (#PCDATA)>
+
+
+<!ATTLIST longitud unidades CDATA #FIXED "km">
+<!ATTLIST desnivel unidades CDATA #FIXED "m">
+<!ATTLIST velocidadMediaGanador unidades CDATA #FIXED "km/h">

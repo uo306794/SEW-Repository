@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+    <nombre>Alcosebre a Castelló </nombre>
+
+    <numero>6</numero>
+
+    <longitud>178</longitud>
+
+
+    <fecha>27-08-2026</fecha>
+
+    <tiempoGanador>4 h 12 min 35 s   PT4H12M35S</tiempoGanador>
+
+    <velocidadMediaGanador unidades="km/h">42,16</velocidadMediaGanador>
+
+    <desnivel>3080</desnivel>
+
+    <ciudadInicio>Alcosebre</ciudadInicio>
+    <ciudadFinal>Castelló</ciudadFinal>
+
+    <tipoEtapa tipo="mediaMontaña" />
+
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-6</referencia>
+        <referencia>https://es.wikipedia.org/wiki/Alcoc%C3%A9ber</referencia>
+        <referencia>https://es.wikipedia.org/wiki/Castell%C3%B3n_de_la_Plana</referencia>
+    </referencias>
+
+    <fotografias>
+        <fotografia>final.jpg</fotografia>
+    </fotografias>
+
+    <videos>
+        <video>Recursos/final.mp4</video>
+    </videos>
+
+    <sonidos>
+        <sonido>Recursos/podcast.mp3</sonido>
+    </sonidos>
+
+    <coordenadasInicio>
+        <coordenadas>
+            <longitudGeo>0.246426</longitudGeo>
+            <latitud>40.252016</latitud>
+            <altitud>15</altitud>
+        </coordenadas>
+    </coordenadasInicio>
+
+    <coordenadasFinal>
+        <coordenadas>
+            <longitudGeo>-0.033473</longitudGeo>
+            <latitud>39.975809</latitud>
+            <altitud>27</altitud>
+        </coordenadas>
+    </coordenadasFinal>
+
+
+
+    <hitos>
+    <!-- 1. Puerto de La Serratella (2ª cat.) -->
+    <puertoMontañaPuntuable>
+        <categoriaPuertoMontaña>segunda</categoriaPuertoMontaña>
+        <coordenadas>
+            <longitudGeo>0.037930</longitudGeo>
+            <latitud>40.281926</latitud>
+            <altitud>844</altitud>
+        </coordenadas>
+        <distanciaASalida>40.5</distanciaASalida>
+    </puertoMontañaPuntuable>
+
+    <!-- 2. Coll de la Bandereta (3ª cat.) -->
+    <puertoMontañaPuntuable>
+        <categoriaPuertoMontaña>tercera</categoriaPuertoMontaña>
+        <coordenadas>
+            <longitudGeo>-0.032848</longitudGeo>
+            <latitud>40.276025</latitud>
+            <altitud>364</altitud>
+        </coordenadas>
+        <distanciaASalida>66.2</distanciaASalida>
+    </puertoMontañaPuntuable>
+
+    <!-- 3. Sprint Intermedio -->
+    <sprintIntermedio>
+        <coordenadas>
+            <longitudGeo>0.072403</longitudGeo>
+            <latitud>40.056799</latitud>
+            <altitud>15</altitud>
+        </coordenadas>
+        <distanciaASalida>120.1</distanciaASalida>
+    </sprintIntermedio>
+
+    <!-- 4. Alto del Desierto de las Palmas (2ª cat.) -->
+    <puertoMontañaPuntuable>
+        <categoriaPuertoMontaña>segunda</categoriaPuertoMontaña>
+        <coordenadas>
+            <longitudGeo>0.026790</longitudGeo>
+            <latitud>40.075047</latitud>
+            <altitud>420</altitud>
+        </coordenadas>
+        <distanciaASalida>129</distanciaASalida>
+    </puertoMontañaPuntuable>
+
+    <!-- 5. Puerto El Bartolo (1ª cat.) -->
+    <puertoMontañaPuntuable>
+        <categoriaPuertoMontaña>primera</categoriaPuertoMontaña>
+        <coordenadas>
+            <longitudGeo>-0.033473</longitudGeo>
+            <latitud>39.975809</latitud>
+            <altitud>729</altitud>
+        </coordenadas>
+        <distanciaASalida>157</distanciaASalida>
+    </puertoMontañaPuntuable>
+</hitos>
+
+<puntosAnonimos>
+    <puntoAnonimo>
+        <nombre>Alcossebre</nombre>
+        <coordenadas>
+            <longitudGeo>0.246426</longitudGeo>
+            <latitud>40.252016</latitud>
+            <altitud>61.65</altitud>
+        </coordenadas>
+        <distanciaASalida>0</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.229216</longitudGeo>
+            <latitud>40.305981</latitud>
+            <altitud>152.66</altitud>
+        </coordenadas>
+        <distanciaASalida>6.95</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>Álcala de Xivert</nombre>
+        <coordenadas>
+            <longitudGeo>0.226746</longitudGeo>
+            <latitud>40.306039</latitud>
+            <altitud>155.65</altitud>
+        </coordenadas>
+        <distanciaASalida>7.18</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.218123</longitudGeo>
+            <latitud>40.302966</latitud>
+            <altitud>167.66</altitud>
+        </coordenadas>
+        <distanciaASalida>8.02</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.180922</longitudGeo>
+            <latitud>40.293555</latitud>
+            <altitud>299.41</altitud>
+        </coordenadas>
+        <distanciaASalida>11.9</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.134095</longitudGeo>
+            <latitud>40.318359</latitud>
+            <altitud>244.13</altitud>
+        </coordenadas>
+        <distanciaASalida>19.7</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.113170</longitudGeo>
+            <latitud>40.306518</latitud>
+            <altitud>186.4</altitud>
+        </coordenadas>
+        <distanciaASalida>22.9</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.078071</longitudGeo>
+            <latitud>40.258320</latitud>
+            <altitud>276.22</altitud>
+        </coordenadas>
+        <distanciaASalida>29.3</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.080565</longitudGeo>
+            <latitud>40.259280</latitud>
+            <altitud>279.06</altitud>
+        </coordenadas>
+        <distanciaASalida>29.5</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>La Torre d'en Doménec</nombre>
+        <coordenadas>
+            <longitudGeo>0.070153</longitudGeo>
+            <latitud>40.263238</latitud>
+            <altitud>304.9</altitud>
+        </coordenadas>
+        <distanciaASalida>30.5</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.057378</longitudGeo>
+            <latitud>40.271371</latitud>
+            <altitud>362.62</altitud>
+        </coordenadas>
+        <distanciaASalida>32</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.039002</longitudGeo>
+            <latitud>40.271250</latitud>
+            <altitud>424.87</altitud>
+        </coordenadas>
+        <distanciaASalida>33.9</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.034001</longitudGeo>
+            <latitud>40.277959</latitud>
+            <altitud>530.06</altitud>
+        </coordenadas>
+        <distanciaASalida>35.4</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.040259</longitudGeo>
+            <latitud>40.287653</latitud>
+            <altitud>596.32</altitud>
+        </coordenadas>
+        <distanciaASalida>37.1</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.026994</longitudGeo>
+            <latitud>40.296493</latitud>
+            <altitud>766.65</altitud>
+        </coordenadas>
+        <distanciaASalida>40.1</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.030210</longitudGeo>
+            <latitud>40.316211</latitud>
+            <altitud>796.67</altitud>
+        </coordenadas>
+        <distanciaASalida>43.1</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.024187</longitudGeo>
+            <latitud>40.316548</latitud>
+            <altitud>823.23</altitud>
+        </coordenadas>
+        <distanciaASalida>43.7</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.029890</longitudGeo>
+            <latitud>40.323429</latitud>
+            <altitud>841.43</altitud>
+        </coordenadas>
+        <distanciaASalida>44.7</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.051176</longitudGeo>
+            <latitud>40.339311</latitud>
+            <altitud>740.47</altitud>
+        </coordenadas>
+        <distanciaASalida>48.2</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.037295</longitudGeo>
+            <latitud>40.357502</latitud>
+            <altitud>547.59</altitud>
+        </coordenadas>
+        <distanciaASalida>51.2</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.004066</longitudGeo>
+            <latitud>40.345846</latitud>
+            <altitud>534.14</altitud>
+        </coordenadas>
+        <distanciaASalida>55.1</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.004066</longitudGeo>
+            <latitud>40.345846</latitud>
+            <altitud>534.14</altitud>
+        </coordenadas>
+        <distanciaASalida>61.7</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.012187</longitudGeo>
+            <latitud>40.238425</latitud>
+            <altitud>513.37</altitud>
+        </coordenadas>
+        <distanciaASalida>74.2</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>Benlloc</nombre>
+        <coordenadas>
+            <longitudGeo>0.025725</longitudGeo>
+            <latitud>40.209818</latitud>
+            <altitud>306.09</altitud>
+        </coordenadas>
+        <distanciaASalida>79.4</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.027150</longitudGeo>
+            <latitud>40.168687</latitud>
+            <altitud>280.01</altitud>
+        </coordenadas>
+        <distanciaASalida>87.4</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>Puerto de Cabanes</nombre>
+        <coordenadas>
+            <longitudGeo>0.075328</longitudGeo>
+            <latitud>40.160486</latitud>
+            <altitud>363.57</altitud>
+        </coordenadas>
+        <distanciaASalida>97.6</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.151018</longitudGeo>
+            <latitud>40.138065</latitud>
+            <altitud>10.12</altitud>
+        </coordenadas>
+        <distanciaASalida>107</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.087472</longitudGeo>
+            <latitud>40.056852</latitud>
+            <altitud>5.79</altitud>
+        </coordenadas>
+        <distanciaASalida>118</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.047039</longitudGeo>
+            <latitud>40.054885</latitud>
+            <altitud>61.18</altitud>
+        </coordenadas>
+        <distanciaASalida>122</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.040486</longitudGeo>
+            <latitud>40.079482</latitud>
+            <altitud>381.56</altitud>
+        </coordenadas>
+        <distanciaASalida>127</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.027339</longitudGeo>
+            <latitud>40.073412</latitud>
+            <altitud>424.56</altitud>
+        </coordenadas>
+        <distanciaASalida>129</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.007281</longitudGeo>
+            <latitud>40.055180</latitud>
+            <altitud>193.36</altitud>
+        </coordenadas>
+        <distanciaASalida>133</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.008023</longitudGeo>
+            <latitud>40.025605</latitud>
+            <altitud>27.39</altitud>
+        </coordenadas>
+        <distanciaASalida>138</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.015580</longitudGeo>
+            <latitud>40.025337</latitud>
+            <altitud>0.96</altitud>
+        </coordenadas>
+        <distanciaASalida>140</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.070659</longitudGeo>
+            <latitud>40.054809</latitud>
+            <altitud>7.36</altitud>
+        </coordenadas>
+        <distanciaASalida>146</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.050506</longitudGeo>
+            <latitud>40.054660</latitud>
+            <altitud>44.19</altitud>
+        </coordenadas>
+        <distanciaASalida>148</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.045555</longitudGeo>
+            <latitud>40.087512</latitud>
+            <altitud>489.26</altitud>
+        </coordenadas>
+        <distanciaASalida>155</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>Puerto el Bartolo</nombre>
+        <coordenadas>
+            <longitudGeo>0.030838</longitudGeo>
+            <latitud>40.085806</latitud>
+            <altitud>715.08</altitud>
+        </coordenadas>
+        <distanciaASalida>157</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.022531</longitudGeo>
+            <latitud>40.076456</latitud>
+            <altitud>542.99</altitud>
+        </coordenadas>
+        <distanciaASalida>159</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>0.011621</longitudGeo>
+            <latitud>40.056848</latitud>
+            <altitud>246.99</altitud>
+        </coordenadas>
+        <distanciaASalida>164</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.008435</longitudGeo>
+            <latitud>40.026347</latitud>
+            <altitud>31.58</altitud>
+        </coordenadas>
+        <distanciaASalida>169</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.042826</longitudGeo>
+            <latitud>40.005145</latitud>
+            <altitud>26.41</altitud>
+        </coordenadas>
+        <distanciaASalida>173</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.022404</longitudGeo>
+            <latitud>39.992062</latitud>
+            <altitud>15</altitud>
+        </coordenadas>
+        <distanciaASalida>176</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <coordenadas>
+            <longitudGeo>-0.029592</longitudGeo>
+            <latitud>39.974900</latitud>
+            <altitud>16.65</altitud>
+        </coordenadas>
+        <distanciaASalida>178</distanciaASalida>
+    </puntoAnonimo>
+    <puntoAnonimo>
+        <nombre>Castelló</nombre>
+        <coordenadas>
+            <longitudGeo>-0.033473</longitudGeo>
+            <latitud>39.975809</latitud>
+            <altitud>19.39</altitud>
+        </coordenadas>
+        <distanciaASalida>178.5</distanciaASalida>
+    </puntoAnonimo>
+</puntosAnonimos>
+
+    <top3Etapa>
+
+        <clasificado>
+            <posicion>1</posicion>
+            <nombreCorredor>Tadej Pogačar</nombreCorredor>
+        </clasificado>
+
+        <clasificado>
+            <posicion>2</posicion>
+            <nombreCorredor>Enric Mas</nombreCorredor>
+            <diferenciaTiempo>0h 0 min 0 s</diferenciaTiempo>
+        </clasificado>
+
+        <clasificado>
+            <posicion>3</posicion>
+            <nombreCorredor>Ramses Debruyne</nombreCorredor>
+            <diferenciaTiempo>0h 0 min 46 s</diferenciaTiempo>
+        </clasificado>
+
+    </top3Etapa>
+
+    <top3General>
+
+        <clasificado>
+            <posicion>1</posicion>
+            <nombreCorredor>Tadej Pogačar</nombreCorredor>
+        </clasificado>
+
+        <clasificado>
+            <posicion>2</posicion>
+            <nombreCorredor>Enric Mas</nombreCorredor>
+            <diferenciaTiempo>0 h 3 min 34 s</diferenciaTiempo>
+        </clasificado>
+
+        <clasificado>
+            <posicion>3</posicion>
+            <nombreCorredor>Primož Roglič</nombreCorredor>
+            <diferenciaTiempo>0 h 4 min 21 s</diferenciaTiempo>
+        </clasificado>
+
+    </top3General>
+
+    <top3Equipos>
+
+        <clasificadoEquipo>
+            <posicion>1</posicion>
+            <nombreEquipo>Decathlon CMA CGM Team</nombreEquipo>
+        </clasificadoEquipo>
+
+        <clasificadoEquipo>
+            <posicion>2</posicion>
+            <nombreEquipo>UAE Team Emirates XRG</nombreEquipo>
+            <diferenciaTiempo>0 h 4 min 22 s</diferenciaTiempo>
+        </clasificadoEquipo>
+
+        <clasificadoEquipo>
+            <posicion>3</posicion>
+            <nombreEquipo>Netcompany INEOS</nombreEquipo>
+            <diferenciaTiempo>0 h 16 min 1 s</diferenciaTiempo>
+        </clasificadoEquipo>
+
+    </top3Equipos>
+
+</etapa>
